@@ -1,0 +1,177 @@
+body {
+        background: linear-gradient(135deg, black, white)
+    
+    }
+    h1, h2, h4, p {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+        color: black;
+    }
+h1 {
+        color: black;
+        text-align: center;
+        font-size: 50px;
+        font-family: bebas;
+    }
+    img {
+        display: block;
+        margin: 20px auto;
+        height: 300px;
+        width: 400px;
+     border-radius: 10px;
+     outline: 2px solid black;
+
+    }
+p {
+        font-family:arial,sans-serif;
+        font-size: 22px;
+        text-align: center;
+    }
+h2 {
+        color: black;
+        text-align: center;
+        font-size: 30px;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+h4 {
+        color: black;
+        text-align: center;
+        font-size: 20px;
+    }
+li {
+        text-align: left;
+        font-size: 20px;
+
+    }
+
+    ul {
+        margin: 0 auto;
+        width: fit-content;
+    }
+.button {
+    display: inline-block;
+    padding: 14px 28px;
+    font-size: 16px;
+    color: white;
+    background-color: #111;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: 10px;
+    transition: 0.3s;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.button:hover {
+    background-color: gold;
+    color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.container {
+        max-width: 900px;
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 40px;
+        background-color: white;
+        border-radius: 15px;
+         box-shadow: 0 5px 40px rgba(0, 0, 0, 0.40 );
+    }
+.subtitle {
+        font-size: 26px;
+        margin-bottom: 40px;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+    }
+.hero {
+        text-align: center;
+        padding: 80px 0;
+    }
+
+.offer {
+        background-color: #f2f2f2;
+        border: 2px solid black;
+        padding: 25px;
+        gap: 20px;
+        margin: 40px auto;
+        max-width: 700px;
+        min-height: 120px;
+        border-radius: 15px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, 0.150 );
+        display: flex;
+        justify-content: space-between;
+        background-color: #f2f2f2;
+        align-items: center;
+        gap: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        transition: 0.3s;
+    }
+.offer h4 {
+       flex-grow: 1;
+    }
+.offer h4 {
+        margin: 0;
+        font-size: 24px;
+    }
+.offer ul {
+        padding-left: 20px;
+        margin: 0;
+    }
+.offer li {
+        margin-bottom: 10px;
+    }
+.offer:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+    }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    min-height: 70px;
+}
+.test {
+    color: red;
+}
+.navbar h2 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+}
+    .nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    transition: 0.3s;
+    display: inline-block;
+    
+}
+
+.nav-links a:hover {
+    color: gold;
+     transform: translateY(-3px);
+     text-decoration: underline;
+}
+.hero h1{
+    font-size: 64px;
+    color: gray;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transform: scale(1.1);
+}
